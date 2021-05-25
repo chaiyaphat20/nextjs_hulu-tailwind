@@ -1,0 +1,7 @@
+{
+    "name": "HULU",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "nextjs"
+}
