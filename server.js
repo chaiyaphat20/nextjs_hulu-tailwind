@@ -17,6 +17,7 @@ app.prepare()
 });
 
 // server.js
+// https://medium.com/@sscaff1/nextjs-from-npm-init-to-production-c9f543169bfb
 const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')
