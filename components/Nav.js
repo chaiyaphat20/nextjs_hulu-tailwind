@@ -10,7 +10,7 @@ function Nav() {
         {/*[key,value] =[key, { title, url }] */}
         {Object.entries(request).map(([key, { title, url }],index) => (
           <h2 key={key} onClick={()=>router.push(`/?genre=${key}`)} className="last:pr-24 cursor-pointer transform 
-            hover:text-white active:text-red-500
+            hover:text-white active:text-red-500 text-green-900
             duration-100 hover:scale-125">{title}</h2>
         ))}
       </div>
